@@ -12,6 +12,7 @@
 		8332B1811D70FC130047C67D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8332B17F1D70FC130047C67D /* Main.storyboard */; };
 		8332B1831D70FC130047C67D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8332B1821D70FC130047C67D /* Assets.xcassets */; };
 		8332B1861D70FC130047C67D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8332B1841D70FC130047C67D /* LaunchScreen.storyboard */; };
+		8332B18E1D7100F70047C67D /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8332B18D1D7100F70047C67D /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8332B1821D70FC130047C67D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8332B1851D70FC130047C67D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8332B1871D70FC130047C67D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8332B18D1D7100F70047C67D /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				8332B17B1D70FC120047C67D /* AppDelegate.swift */,
 				8332B17D1D70FC120047C67D /* ViewController.swift */,
+				8332B18D1D7100F70047C67D /* TipCalculatorModel.swift */,
 				8332B17F1D70FC130047C67D /* Main.storyboard */,
 				8332B1821D70FC130047C67D /* Assets.xcassets */,
 				8332B1841D70FC130047C67D /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8332B18E1D7100F70047C67D /* TipCalculatorModel.swift in Sources */,
 				8332B17E1D70FC120047C67D /* ViewController.swift in Sources */,
 				8332B17C1D70FC120047C67D /* AppDelegate.swift in Sources */,
 			);
