@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let tipCalculation = TipCalculatorModel(total: 33.25, taxPercent: 0.06)
+    let tipCalculation = TipCalculatorModel(total: 33.75, taxPercent: 0.06)
     
     @IBOutlet var totalTextField : UITextField!
     @IBOutlet var taxPercentSlider : UISlider!
